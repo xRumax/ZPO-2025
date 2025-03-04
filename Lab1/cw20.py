@@ -8,8 +8,19 @@ class Instrument(ABC):
 
 class Piano(Instrument):
     def play(self)->str:
-        return 'sadfasdf'
+        return 'vanBeethoven'
 
 class Guitar(Instrument):
-    def play(self)->int:
-        return 3 
+    def play(self)->str:
+        return 'Nirvana' 
+    
+
+def main():
+    piano = Piano()
+    guitar = Guitar()
+    print(piano.play())
+    print(guitar.play())
+
+
+if __name__ == '__main__':
+    main()
