@@ -1,0 +1,29 @@
+# Ignoruj środowisko wirtualne
+venv/
+
+# Pliki pyc, cache i logi
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# Ignoruj pliki środowiskowe
+.env
+*.env
+
+# Ignoruj pliki konfiguracyjne edytorów
+.vscode/
+.idea/
+*.swp
+
+# Ignoruj pliki buildów
+build/
+dist/
+*.egg-info/
+
+# Ignoruj bazy danych sqlite
+*.sqlite3
+*.db
+
+# Ignoruj pliki Jupyter Notebook checkpointy
+.ipynb_checkpoints/
